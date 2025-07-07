@@ -65,6 +65,8 @@ pub enum Error {
     EncryptionFailed,
     #[error("decryption failed")]
     DecryptionFailed,
+    #[error("invalid key")]
+    InvalidKey,
 
     // Codec errors
     #[error("unable to decode: {0}")]

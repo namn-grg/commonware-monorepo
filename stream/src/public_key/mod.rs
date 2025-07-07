@@ -80,6 +80,7 @@ mod cipher;
 mod connection;
 use commonware_cryptography::Signer;
 pub use connection::{Connection, IncomingConnection, Receiver, Sender};
+pub mod encrypted;
 pub mod handshake;
 mod nonce;
 pub mod x25519;
